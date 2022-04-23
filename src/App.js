@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import OrderSummary from './components/OrderSummary';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="wrapper">
+      <OrderSummary />
+      <div class="attribution">
+        Challenge by
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://www.frontendmentor.io?ref=challenge"
+          rel="noreferrer"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
+          Frontend Mentor
         </a>
-      </header>
+        . Coded by <button>Bashar Khdr</button>.
+      </div>
     </div>
   );
-}
+};
 
 export default App;

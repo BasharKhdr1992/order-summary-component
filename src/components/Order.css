@@ -1,0 +1,44 @@
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+}
+
+.order img {
+  flex-grow: 1;
+  width: 18px;
+  height: 60%;
+}
+.order-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.order-info p {
+  color: hsl(224, 23%, 55%);
+}
+
+.btn-change {
+  border: none;
+  text-align: right;
+  background-color: transparent;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  cursor: pointer;
+  flex-grow: 3;
+  font-size: 18px;
+}
+
+.btn-change:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
