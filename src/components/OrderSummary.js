@@ -16,7 +16,7 @@ const OrderSummary = () => {
       </div>
       <Order />
       <button className="btn btn-proceed">proceed to payment</button>
-      <button className="btn btn-cancel">cancel</button>
+      <button className="btn btn-cancel">Cancel Order</button>
     </div>
   );
 };
